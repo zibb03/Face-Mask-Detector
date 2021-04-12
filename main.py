@@ -1,4 +1,8 @@
-a = int(input())
-b = int(input())
+import sys
+from PyQt5.QtWidgets import *
 
-print(a + b)
+app = QApplication(sys.argv)
+label = QLabel()
+label.show()
+
+app.exec_()
