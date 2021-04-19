@@ -1,12 +1,17 @@
 import sys
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 
+import cv2
+from matplotlib import pyplot as plt
+'''
+#기본 코드
 app = QApplication(sys.argv)
 label = QLabel()
 label.show()
 
 app.exec_()
-
+'''
 '''
 class MyApp(QWidget):
 
