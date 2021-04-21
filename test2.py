@@ -32,7 +32,7 @@ class MyApp(QWidget):
         label2.lbl_img = QLabel()
         # label1.lbl_img.resize(272, 202)
         label2.lbl_img.setPixmap(pixmap2)
-        label2.setContentsMargins(10, 10, 10, 10)
+        #label2.setContentsMargins(10, 10, 10, 10)
         #label2.lbl_size = QLabel('Width: ' + str(pixmap2.width()) + ', Height: ' + str(pixmap2.height()))
         #label2.lbl_size.setAlignment(Qt.AlignCenter)
 
