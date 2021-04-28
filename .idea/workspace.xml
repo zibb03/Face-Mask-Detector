@@ -3,30 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef5afcd-ecaa-42bb-9ef1-384a767f8325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/Layer 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/capture1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/caputure2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/full body1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/full body2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/full body3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/full body4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people sixteen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people three (l).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people twenty four.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/people5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/peoples.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/person2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/person3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/road.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/road2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/sad face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/upper body1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo/upper body2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/face extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.face extract">
+  <component name="RunManager" selected="Python.image paste">
     <configuration name="face extract" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +55,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="image paste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image paste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.image paste" />
         <item itemvalue="Python.face extract" />
         <item itemvalue="Python.test3" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test0" />
       </list>
     </recent_temporary>
   </component>
@@ -189,30 +167,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-418" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619436104781" />
+    <state x="522" y="45" key="CommitChangelistDialog2" timestamp="1619614371960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619614371960" />
     <state x="690" y="200" key="FileChooserDialogImpl" timestamp="1619010147218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="200" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619010147217" />
-    <state width="1921" height="181" key="GridCell.Tab.0.bottom" timestamp="1619437795921">
+    <state width="1921" height="180" key="GridCell.Tab.0.bottom" timestamp="1619614471453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1618410821431" />
-    <state width="1921" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619437795921" />
-    <state width="1921" height="181" key="GridCell.Tab.0.center" timestamp="1619437795921">
+    <state width="1921" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1619450153207" />
+    <state width="1921" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619614471453" />
+    <state width="1921" height="180" key="GridCell.Tab.0.center" timestamp="1619614471452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1618410821431" />
-    <state width="1921" height="181" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619437795921" />
-    <state width="1921" height="181" key="GridCell.Tab.0.left" timestamp="1619437795920">
+    <state width="1921" height="180" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1619450153207" />
+    <state width="1921" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619614471452" />
+    <state width="1921" height="180" key="GridCell.Tab.0.left" timestamp="1619614471452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1618410821431" />
-    <state width="1921" height="181" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619437795920" />
-    <state width="1921" height="181" key="GridCell.Tab.0.right" timestamp="1619437795921">
+    <state width="1921" height="180" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1619450153207" />
+    <state width="1921" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619614471452" />
+    <state width="1921" height="180" key="GridCell.Tab.0.right" timestamp="1619614471453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1618410821431" />
-    <state width="1921" height="181" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619437795921" />
+    <state width="1921" height="180" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1619450153207" />
+    <state width="1921" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619614471453" />
     <state x="345" y="76" key="SettingsEditor" timestamp="1618231038642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
