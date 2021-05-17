@@ -21,7 +21,7 @@ for face_landmark in face_landmarks:
         for point in points:
             draw.point(point)
 
-face_landmark_image.show()
+#face_landmark_image.show()
 # draw.point((10, 10))
 
 width = face_landmark['chin'][16][0] - face_landmark['chin'][0][0]
