@@ -17,7 +17,7 @@ def image_download(url, filepath):
     #url로 부터 filepath에 다운로드 완료
 
 mask_url = 'https://github.com/prajnasb/observations/raw/master/mask_classifier/Data_Generator/images/blue-mask.png'
-image_download(mask_url, 'data/mask.png')
+image_download(mask_url, '../data/mask.png')
 exit()
 
 api_url = 'https://api.github.com/repos/prajnasb/observations/contents/experiements/data/without_mask?ref=master'
@@ -37,10 +37,10 @@ for i in range(len(contents)):
     response = urlopen(request)
     image_data = response.read()
 
-    if not os.path.exists('data'):
-        os.mkdir('data')
-    if not os.path.exists('data/without_mask'):
-        os.mkdir('data/without_mask')
+    if not os.path.exists('../data'):
+        os.mkdir('../data')
+    if not os.path.exists('../data/without_mask'):
+        os.mkdir('../data/without_mask')
 
     image_file = open('data/without_mask/' + content['name'], 'wb')
     image_file.write(image_data)
