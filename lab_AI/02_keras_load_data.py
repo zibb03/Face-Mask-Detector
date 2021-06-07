@@ -19,6 +19,21 @@ valid_dataset = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=16
 )
 
+resize_and_crop = tf.keras.Sequential([
+    tf.keras.layers.experimental.preprocessing.RandomCrop(height=224, width=224),
+    tf.keras.layers.experimental.preprocessing.Rescaling(1./255)
+    # " . " -> 실수 연산
+])
+
+#이미지 변환해야 함
+rc_train_dataset = train_dataset.map(lambda x, y: (resize_and_crop(x), y))
+rc_valid_dataset = train_dataset.map(lambda x, y: (resize_and_crop(x), y))
+
+print(rc_train_dataset)
+print(rc_valid_dataset)
+
+print(train_dataset.class_names)
+
 plt.figure(0)
 plt.title('train_dataset')
 # print(train_dataset.class_names)
