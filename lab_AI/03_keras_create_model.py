@@ -1,5 +1,6 @@
 # 03. keras_create_model.py
 import tensorflow as tf
 
-model = tf.keras.applications.ResNet50()
+#model = tf.keras.applications.MobileNet()
+model = tf.keras.applications.VGG16()
 print(model.summary())
