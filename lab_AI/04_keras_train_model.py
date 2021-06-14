@@ -30,7 +30,7 @@ rc_valid_dataset = valid_dataset.map(lambda x, y: (resize_and_crop(x), y))
 
 model = tf.keras.applications.MobileNet(
     input_shape=(224, 224, 3),
-    include_top=False,
+    include_top=False, #마지막 출력 없앰
     weights='imagenet'
 )
 
@@ -46,7 +46,7 @@ learning_rate = 0.0001
 model.compile(
     loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
     optimizer=tf.keras.optimizers.RMSprop(lr=learning_rate),
-    metrics=['accuracy']
+    metrics=['accuracy'] #부가정보 표현하는 코드 (accuracy -> 정확도 나오게 만듬)
 )
 
 print(model.summary())
