@@ -90,16 +90,14 @@ def distance_point_to_point(point1, point2):
 # 점과 직선 사이의 거리
 def distance_point_to_line(point, line_point1, line_point2):
     if line_point1[0] == line_point2[0]:
-        # 얼굴이 기울어진 경우를 위해 만들어진 코드임
-        # 그러므로 기울어지지 않았을 때는 코의 기울기의 x값의 차가 0이 나오기 때문에 예외 처리 해줘야 함
         return np.abs(point[0] - line_point1[0])
     a = -(line_point1[1] - line_point2[1]) / (line_point1[0] - line_point2[0])
     b = 1
     c = -a * line_point1[0] - b * line_point1[1]
     return np.abs(a * point[0] + b * point[1] + c) / np.sqrt(a ** 2 + b ** 2)
-    # abs 는 절댓값
 
-def rotate_point(origin, point, angle):
+
+def rotate_point(origin, point, radian):
     """
     Rotate a point counterclockwise by a given angle around a given origin.
     The angle should be given in radians.
@@ -107,8 +105,8 @@ def rotate_point(origin, point, angle):
     ox, oy = origin
     px, py = point
 
-    qx = ox + np.cos(angle) * (px - ox) - np.sin(angle) * (py - oy)
-    qy = oy + np.sin(angle) * (px - ox) + np.cos(angle) * (py - oy)
+    qx = ox + np.cos(radian) * (px - ox) - np.sin(radian) * (py - oy)
+    qy = oy + np.sin(radian) * (px - ox) + np.cos(radian) * (py - oy)
     return qx, qy
 
 
@@ -133,50 +131,43 @@ def mask_processing(face_image_file_name):
     for face_landmark in face_landmarks:
         if ('nose_bridge' not in face_landmark) or ('chin' not in face_landmark):
             continue
-        # 마스크 너비 보정값
+
+        # 마스크 너비 보정값 (1.2)
         mask_width_ratio = 1.2
 
-        # 마스크 높이 계산 (nose_bridge 2번째 점, chin 9번째 점의 길이)
+        # 마스크 높이 계산 (nose_bridge 2번째 점, chin 9번째 점 사이의 길이)
         mask_height = int(distance_point_to_point(face_landmark['nose_bridge'][1], face_landmark['chin'][8]))
 
         # 마스크 좌/우 분할
         mask_left_image = mask_image.crop((0, 0, mask_image.width // 2, mask_image.height))
         mask_right_image = mask_image.crop((mask_image.width // 2, 0, mask_image.width, mask_image.height))
 
-        # 왼쪽 얼굴 너비 계산
-        mask_left_width = int(distance_point_to_line(face_landmark['chin'][0], face_landmark['nose_bridge'][0],
-                                                     face_landmark['chin'][8]) * mask_width_ratio)
+        # 왼쪽 마스크 너비 계산
+        mask_left_width = int(distance_point_to_line(face_landmark['chin'][0], face_landmark['nose_bridge'][0], face_landmark['chin'][8]) * mask_width_ratio)
 
         # 왼쪽 마스크 크기 조절
         mask_left_image = mask_left_image.resize((mask_left_width, mask_height))
 
-        # 오른쪽 얼굴 너비 계산
-        mask_right_width = int(distance_point_to_line(face_landmark['chin'][16], face_landmark['nose_bridge'][0],
-                                                      face_landmark['chin'][8]) * mask_width_ratio)
+        # 오른쪽 마스크 너비 계산
+        mask_right_width = int(distance_point_to_line(face_landmark['chin'][16], face_landmark['nose_bridge'][0], face_landmark['chin'][8]) * mask_width_ratio)
 
         # 오른쪽 마스크 크기 조절
         mask_right_image = mask_right_image.resize((mask_right_width, mask_height))
 
         # 좌/우 마스크 연결
-        # 새로운 이미지를 만들고 그 이미지에 왼쪽 이미지와 오른쪽 이미지를 붙여 넣는 과정
         mask_image = Image.new('RGBA', (mask_left_width + mask_right_width, mask_height))
-        # def new(mode, size, color=0):
         mask_image.paste(mask_left_image, (0, 0), mask_left_image)
         mask_image.paste(mask_right_image, (mask_left_width, 0), mask_right_image)
 
         # 얼굴 회전 각도 계산
-        # 08_mask rotate 와 같은 코드
         dx = face_landmark['chin'][8][0] - face_landmark['nose_bridge'][0][0]
         dy = face_landmark['chin'][8][1] - face_landmark['nose_bridge'][0][1]
 
         face_radian = np.arctan2(dy, dx)
-        # arctan2 -> 360도 범위에서의 기울기 측정을 가능하게 해줌, dy/dx
         face_degree = np.rad2deg(face_radian)
-        # 라디안(호도법)에서 각도로
 
         # 마스크 회전
         mask_degree = (90 - face_degree + 360) % 360
-        # 360 더하고 360으로 나누어 각도가 음수라면 양수로 바꿔줌
         mask_image = mask_image.rotate(mask_degree, expand=True)
 
         # 마스크 위치 계산
@@ -185,17 +176,15 @@ def mask_processing(face_image_file_name):
         center_x = (face_landmark['nose_bridge'][1][0] + face_landmark['chin'][8][0]) // 2
         center_y = (face_landmark['nose_bridge'][1][1] + face_landmark['chin'][8][1]) // 2
 
-        # def rotate_point(origin, point, angle):
         p1 = rotate_point((center_x, center_y), (center_x - mask_left_width, center_y - mask_height // 2), mask_radian)
         p2 = rotate_point((center_x, center_y), (center_x - mask_left_width, center_y + mask_height // 2), mask_radian)
         p3 = rotate_point((center_x, center_y), (center_x + mask_right_width, center_y - mask_height // 2), mask_radian)
         p4 = rotate_point((center_x, center_y), (center_x + mask_right_width, center_y + mask_height // 2), mask_radian)
 
-        #rotate point는 실수로 계산해서 int() 해줘야 함
         box_x = int(min(p1[0], p2[0], p3[0], p4[0]))
         box_y = int(min(p1[1], p2[1], p3[1], p4[1]))
 
-        # 마스크 합성(붙여넣기)
+        # 마스크 합성 (붙여넣기)
         face_image.paste(mask_image, (box_x, box_y), mask_image)
 
         face_count += 1
@@ -207,6 +196,7 @@ def mask_processing(face_image_file_name):
 # 데이터 생성
 def generate_data():
     face_image_base_path = 'data/without_mask/'
+
     save_path = 'data/with_mask/'
 
     face_image_file_names = os.listdir(face_image_base_path)
@@ -225,10 +215,9 @@ def generate_data():
 
             face_image.save(save_path + face_image_file_name)
             print('마스크 합성 중(' + str(i + 1) + '/' + str(len(face_image_file_names)) + '): ' + face_image_file_name)
-
     print('마스크 합성 완료')
 
 
 if __name__ == '__main__':
+    # download_image('without_mask')
     generate_data()
-    #download_image("without_mask")
