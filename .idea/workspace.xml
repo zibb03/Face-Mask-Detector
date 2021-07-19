@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef5afcd-ecaa-42bb-9ef1-384a767f8325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mymodel/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/models/mymodel/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mymodel/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/models/mymodel/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mymodel/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/models/mymodel/variables/variables.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outputs/output.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/output.wmv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.gui">
-    <configuration name="05_keras_visualize_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BlackBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,53 +50,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_AI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_AI/05_keras_visualize_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="08_keras_predict_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Face Mask Detector" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_AI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_AI/08_keras_predict_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="11_opencv_save_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Face Mask Detector" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_AI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_AI/11_opencv_save_video.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BlackBox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +92,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/test0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Face Mask Detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Face Mask Detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.gui" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.11_opencv_save_video" />
-        <item itemvalue="Python.05_keras_visualize_model" />
-        <item itemvalue="Python.08_keras_predict_data" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.test0" />
+        <item itemvalue="Python.BlackBox" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +171,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="620" y="64" key="#05_keras_visualize_model" timestamp="1625396447108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="620" y="64" key="#05_keras_visualize_model/0.0.1920.1040/1920.-210.1920.1040@0.0.1920.1040" timestamp="1625396447108" />
     <state x="-418" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619436104781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,38 +187,47 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="522" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619614371960" />
-    <state x="690" y="200" key="FileChooserDialogImpl" timestamp="1619010147218">
+    <state x="690" y="200" key="FileChooserDialogImpl" timestamp="1625487659333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="200" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619010147217" />
-    <state width="1921" height="222" key="GridCell.Tab.0.bottom" timestamp="1625068007895">
+    <state x="690" y="200" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625487659333" />
+    <state width="1893" height="214" key="GridCell.Tab.0.bottom" timestamp="1625899194364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.bottom/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
-    <state width="1921" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625068007895" />
-    <state width="1921" height="222" key="GridCell.Tab.0.center" timestamp="1625068007895">
+    <state width="1921" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
+    <state width="1893" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
+    <state width="1893" height="214" key="GridCell.Tab.0.center" timestamp="1625899194364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.center/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
-    <state width="1921" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625068007895" />
-    <state width="1921" height="222" key="GridCell.Tab.0.left" timestamp="1625068007895">
+    <state width="1921" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
+    <state width="1893" height="214" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
+    <state width="1893" height="214" key="GridCell.Tab.0.left" timestamp="1625899194364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.left/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
-    <state width="1921" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625068007895" />
-    <state width="1921" height="222" key="GridCell.Tab.0.right" timestamp="1625068007895">
+    <state width="1921" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
+    <state width="1893" height="214" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
+    <state width="1893" height="214" key="GridCell.Tab.0.right" timestamp="1625899194364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.right/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
-    <state width="1921" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625068007895" />
-    <state x="345" y="76" key="SettingsEditor" timestamp="1618231038642">
+    <state width="1921" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
+    <state width="1893" height="214" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
+    <state x="345" y="76" key="SettingsEditor" timestamp="1625470734839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="345" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618231038642" />
+    <state x="345" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625470734839" />
+    <state x="572" y="11" width="775" height="1017" key="find.popup" timestamp="1626693246881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="11" width="775" height="1017" key="find.popup/0.0.1920.1040/1920.-210.1920.1040@0.0.1920.1040" timestamp="1625341190812" />
+    <state x="572" y="11" width="775" height="1017" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626693246881" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1623674075755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

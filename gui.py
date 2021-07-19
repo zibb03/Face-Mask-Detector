@@ -21,7 +21,7 @@ class LoadDataWorker(QThread):
 
 
 class LoadVideoWorker(QThread):
-    finished = pyqtSignal()
+    finished = pyqtSignal
 
     def set_video_path(self, video_path):
         self.video_path = video_path
