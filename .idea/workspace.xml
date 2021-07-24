@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef5afcd-ecaa-42bb-9ef1-384a767f8325" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Face Mask Detector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Face Mask Detector.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/mymodel/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/models/mymodel/saved_model.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/mymodel/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/models/mymodel/variables/variables.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/mymodel/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/models/mymodel/variables/variables.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outputs/output.wmv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/output.wmv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +45,50 @@
       <recent name="C:\Users\user\Documents\GitHub\Face Mask Detector\lab_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gui">
-    <configuration name="BlackBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="04_image paste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Face Mask Detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/04_image paste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_keras_train_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Face Mask Detector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_AI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_AI/04_keras_train_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BlackBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face Mask Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,53 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/test0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Face Mask Detector" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Face Mask Detector" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_data/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gui" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test0" />
-        <item itemvalue="Python.BlackBox" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.ai" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.04_image paste" />
+        <item itemvalue="Python.04_keras_train_model" />
       </list>
     </recent_temporary>
   </component>
@@ -187,42 +191,68 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="522" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619614371960" />
-    <state x="690" y="200" key="FileChooserDialogImpl" timestamp="1625487659333">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2286" y="234" key="FileChooserDialogImpl" timestamp="1626964649048">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2286" y="234" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626964649048" />
     <state x="690" y="200" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625487659333" />
-    <state width="1893" height="214" key="GridCell.Tab.0.bottom" timestamp="1625899194364">
+    <state width="1893" height="226" key="GridCell.Tab.0.bottom" timestamp="1626965136097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.bottom/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
+    <state width="1893" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626965136097" />
+    <state width="1893" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626904822294" />
     <state width="1921" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
-    <state width="1893" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
-    <state width="1893" height="214" key="GridCell.Tab.0.center" timestamp="1625899194364">
+    <state width="1893" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="226" key="GridCell.Tab.0.center" timestamp="1626965136097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.center/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
+    <state width="1893" height="226" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626965136097" />
+    <state width="1893" height="226" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626904822294" />
     <state width="1921" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
-    <state width="1893" height="214" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
-    <state width="1893" height="214" key="GridCell.Tab.0.left" timestamp="1625899194364">
+    <state width="1893" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="226" key="GridCell.Tab.0.left" timestamp="1626965136097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.left/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
+    <state width="1893" height="226" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626965136097" />
+    <state width="1893" height="226" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626904822293" />
     <state width="1921" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
-    <state width="1893" height="214" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
-    <state width="1893" height="214" key="GridCell.Tab.0.right" timestamp="1625899194364">
+    <state width="1893" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="226" key="GridCell.Tab.0.right" timestamp="1626965136097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="222" key="GridCell.Tab.0.right/-1920.210.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1624962631272" />
     <state width="1921" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.120.1920.1040@0.0.1920.1040" timestamp="1621866781884" />
+    <state width="1893" height="226" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626965136097" />
+    <state width="1893" height="226" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1626904822294" />
     <state width="1921" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.5.1920.1040@0.0.1920.1040" timestamp="1625414581005" />
-    <state width="1893" height="214" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625899194364" />
-    <state x="345" y="76" key="SettingsEditor" timestamp="1625470734839">
+    <state width="1893" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="332" key="GridCell.Tab.1.bottom" timestamp="1626866277076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="345" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625470734839" />
+    <state width="1893" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="332" key="GridCell.Tab.1.center" timestamp="1626866277076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="332" key="GridCell.Tab.1.left" timestamp="1626866277076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state width="1893" height="332" key="GridCell.Tab.1.right" timestamp="1626866277076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626866277076" />
+    <state x="345" y="76" key="SettingsEditor" timestamp="1626964666406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="345" y="76" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1626964666406" />
+    <state x="345" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626872756293" />
     <state x="572" y="11" width="775" height="1017" key="find.popup" timestamp="1626693246881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,5 +262,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623674075755" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

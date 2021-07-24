@@ -37,8 +37,9 @@ def load_data():
 
 # 모델 생성
 def create_model():
-    if os.path.exists('models/mymodel'):
-        model = tf.keras.models.load_model('models/mymodel')
+    if os.path.exists('C:/Users/user/Documents/GitHub/Face Mask Detector/models/mymodel'):
+        model = tf.keras.models.load_model('C:/Users/user/Documents/GitHub/Face Mask Detector/models/mymodel')
+
 
         model.layers[0].trainable = False
         model.layers[2].trainable = True
@@ -73,7 +74,7 @@ def create_model():
 def train_model(model, epochs, train_dataset, valid_dataset, save_model):
     history = model.fit(train_dataset, epochs=epochs, validation_data=valid_dataset)
     if save_model:
-        model.save('models/mymodel')
+        model.save('C:/Users/user/Documents/GitHub/Face Mask Detector/models/mymodel')
     return history
 
 
